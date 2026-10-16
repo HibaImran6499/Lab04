@@ -31,13 +31,15 @@
       </aside>
       <h2 id="headings">Headings and Paragraphs </h2>
       <p>Headings and paragraphs are BLOCK elements</p>
-      <h3>Headings</h3>
+      <h3 id="headings-h3">Headings</h3>
       <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, don't change its level - change the CSS.</p>
       <h3>Paragraphs</h3>
       <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.</p>
       
       <h2 id="sc">Special Characters</h2>
-      <p>While HTML supports many named special characters like <span class="special">&#174; (#174)</span>, XML only supports 5 namely: <span class="special">&quot; &apos; &amp; &lt;</span>  and <span class="special">&gt;</span>.  So to keep your HTML compliant you need to use numbers for all the others.</p>
+      <p>While HTML supports many named special characters like <span class="special">&#174; 
+         (#174)</span>, XML only supports 5 namely: <span class="special">&quot; &apos; &amp; &lt;</span>  and <span class="special">&gt;</span>. 
+          So to keep your HTML compliant you need to use numbers for all the others.</p>
       
          
       
@@ -58,7 +60,7 @@
          <li>Third item</li>
       </ol>
 	  <h3>Definition List</h3>
-	  <dl>
+     <dl>
 		<dt>First term (or name)</dt>
 			<dd>First description (or definition, or value)</dd>
 		<dt>Second term (or name)</dt>
@@ -95,13 +97,13 @@
         </thead>
         <tbody>
          <tr>
-           <th scope="row">Jan</th>
+           <th class="month" scope="row">Jan</th>
            <td>$60</td>
            <td>$40</td>
            <td>$100</td>
          </tr>
          <tr>
-           <th scope="row">Feb</th>
+           <th class="month" scope="row">Feb</th> 
            <td>$40</td>
            <td>$40</td>
            <td>$80</td>

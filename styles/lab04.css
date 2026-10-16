@@ -24,6 +24,10 @@ h2 {
   font-size: 1.5em;
 }
 
+#headings-h3 {
+  color: red;
+}
+
 
 /* Group selectors */
 aside, footer {
@@ -43,9 +47,6 @@ table, th, td {
   text-align: center;
 }
 
-#headings {
-  color: red;
-}
 
 /* Class selectors */
 .special {
